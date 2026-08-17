@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "1.0.1"
+  version: "1.0.2"
 
 package:
   name: hatch-argparse-manpage
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/h/hatch-argparse-manpage/hatch_argparse_manpage-${{ version }}.tar.gz
-  sha256: 76cb65fb230e312f4b1bd78cbae8f237a14e784b9e246f53c35fd6f4adde6bac
+  sha256: 3d3ea8f81424cd8ceea1e050f01a76ff88dfe1db523684b6c562fa01cda5fa15
 
 build:
   number: 0
