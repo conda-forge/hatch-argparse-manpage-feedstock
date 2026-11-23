@@ -24,7 +24,8 @@ requirements:
   run:
     - python >=${{ python_min }}
     - rich
-    - argparse-manpage
+    - argparse-manpage >=4.8
+    - hatchling
 
 tests:
   - python:
